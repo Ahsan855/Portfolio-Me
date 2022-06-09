@@ -11,7 +11,13 @@ const Banner = () => {
             class="md:max-w-md sm:max-w-xs rounded-lg shadow-2xl"
             alt=""
           />
-          <div className="text-left">
+          <div
+            className="text-left"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <h1 class="sm:text-2xl md:text-5xl font-bold text-white">
               Hello, I'm <br />
               <span className="text-primary">Md. Ahsan Habib</span>

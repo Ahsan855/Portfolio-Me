@@ -5,7 +5,7 @@ import image3 from "../../image/screencapture-digital-geaget-netlify-app-2022-06
 import image4 from "../../image/screencapture-constraction-app-web-app-2022-06-09-19_16_54.png";
 const Projects = () => {
   return (
-    <div>
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
