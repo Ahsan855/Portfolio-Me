@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabIndex="0" class="btn btn-ghost lg:hidden">
+      <div className="navbar bg-base-100">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -25,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <NavLink to="/">Home</NavLink>
@@ -40,7 +40,13 @@ const Navbar = () => {
                 <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <a
+                  href="https://form.jotform.com/221594069555464"
+                  target="blank"
+                  to="/contact"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -48,8 +54,8 @@ const Navbar = () => {
             Ahsan <span className="text-primary">Habib</span>
           </h1>
         </div>
-        <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal p-0">
             <li className="mr-2">
               <NavLink to="/">Home</NavLink>
             </li>
@@ -63,7 +69,13 @@ const Navbar = () => {
               <NavLink to="/projects">Projects</NavLink>
             </li>
             <li className="mr-2">
-              <NavLink to="/contact">Contact</NavLink>
+              <a
+                href="https://form.jotform.com/221594069555464"
+                target="blank"
+                to="/contact"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
