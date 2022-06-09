@@ -5,16 +5,17 @@ import image2 from "../../image/Screenshot_2.png";
 const About = () => {
   return (
     <div>
-      <h1 className="text-primary text-4xl">
+      <h1 className="text-primary text-4xl font-bold">
         About <span className="border-b-4 border-primary text-accent">Me</span>
       </h1>
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
-            <div class="rounded-lg h-64 overflow-hidden  hidden md:block">
+            <div class="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
-                class="object-cover object-center h-full w-full"
+                class="object-cover object-center md:h-full md:w-full sm:w-1/2 sm:h-1/2"
+                // class="object-cover object-center h-full w-full"
                 src={image2}
               />
             </div>
