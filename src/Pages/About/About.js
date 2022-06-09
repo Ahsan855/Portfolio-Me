@@ -1,6 +1,6 @@
 import React from "react";
 import image1 from "../../image/image 1.png";
-import image2 from "../../image/Screenshot_1.png";
+import image2 from "../../image/Screenshot_2.png";
 
 const About = () => {
   return (
@@ -29,6 +29,9 @@ const About = () => {
                   </h2>
                   <div class="w-12 h-1 bg-primary rounded mt-2 mb-4"></div>
                   <p class="text-base">Junior front-end Developer</p>
+                  <button className="btn-primary btn-outline btn mt-4">
+                    Hire Me
+                  </button>
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
