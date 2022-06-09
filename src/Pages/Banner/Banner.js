@@ -16,7 +16,7 @@ const Banner = () => {
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
-            data-aos-duration="500"
+            data-aos-duration="1000"
           >
             <h1 class="sm:text-2xl md:text-5xl font-bold text-white">
               Hello, I'm <br />

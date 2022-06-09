@@ -5,7 +5,7 @@ import image3 from "../../image/screencapture-digital-geaget-netlify-app-2022-06
 import image4 from "../../image/screencapture-constraction-app-web-app-2022-06-09-19_16_54.png";
 const Projects = () => {
   return (
-    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+    <div>
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
@@ -20,7 +20,12 @@ const Projects = () => {
               as selecting your Company fron-end developer.
             </p>
           </div>
-          <div class="flex flex-wrap -m-4">
+          <div
+            class="flex flex-wrap -m-4"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
             <div class="xl:w-1/4 md:w-1/2 text-left p-4">
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
