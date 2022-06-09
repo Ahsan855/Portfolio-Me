@@ -19,7 +19,7 @@ const Banner = () => {
               Front-end Developer.
             </p>
             <a
-              href="https://drive.google.com/file/d/1aOquh9tsYOC9ZNpPuwWMQgYBYLnArghI/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IHFeHiN5X_PkAq_PFbF5fVekKTb-MFqm/view?usp=sharing"
               class="btn btn-primary btn-outline cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
