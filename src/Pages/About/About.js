@@ -11,7 +11,7 @@ const About = () => {
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
-            <div class="rounded-lg h-64 overflow-hidden">
+            <div class="rounded-lg h-64 overflow-hidden  hidden md:block">
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
