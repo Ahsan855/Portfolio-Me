@@ -46,27 +46,32 @@ const Projects = () => {
                   <li>* Dashboard added items and delete items</li>
                   <li>* Create blog section this websites</li>
                 </ul>
-                <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a href="https://toolkits-websites.web.app/" target="_blank">
-                    View Site
-                  </a>
-                </button>
-                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a
-                    href="https://github.com/Ahsan855/Toolkits-Client"
-                    target="_blank"
-                  >
-                    Code Site
-                  </a>
-                </button>
-                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a
-                    href="https://github.com/Ahsan855/Toolkits-server"
-                    target="_blank"
-                  >
-                    Server code
-                  </a>
-                </button>
+                <div className="grid grid-cols-3">
+                  <button className="btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a
+                      href="https://toolkits-websites.web.app/"
+                      target="_blank"
+                    >
+                      View
+                    </a>
+                  </button>
+                  <button className="mx-1 btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a
+                      href="https://github.com/Ahsan855/Toolkits-Client"
+                      target="_blank"
+                    >
+                      Client
+                    </a>
+                  </button>
+                  <button className="btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a
+                      href="https://github.com/Ahsan855/Toolkits-server"
+                      target="_blank"
+                    >
+                      Server
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
@@ -89,27 +94,29 @@ const Projects = () => {
                   <li>* Dashboard added items and delete items</li>
                   <li>* Create blog section this websites</li>
                 </ul>
-                <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a href="https://book-store-e6ec1.web.app/" target="_blank">
-                    View Site
-                  </a>
-                </button>
-                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a
-                    href="https://github.com/Ahsan855/book-wareHouse"
-                    target="_blank"
-                  >
-                    Code Site
-                  </a>
-                </button>
-                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a
-                    href="https://github.com/Ahsan855/Book-ware-House-server"
-                    target="_blank"
-                  >
-                    Server Code
-                  </a>
-                </button>
+                <div className="grid grid-cols-3">
+                  <button className="btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a href="https://book-store-e6ec1.web.app/" target="_blank">
+                      View
+                    </a>
+                  </button>
+                  <button className="mx-1 btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a
+                      href="https://github.com/Ahsan855/book-wareHouse"
+                      target="_blank"
+                    >
+                      Client
+                    </a>
+                  </button>
+                  <button className="btn-sm btn-primary rounded-full btn-outline-sm">
+                    <a
+                      href="https://github.com/Ahsan855/Book-ware-House-server"
+                      target="_blank"
+                    >
+                      Server
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
