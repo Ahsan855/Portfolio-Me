@@ -59,6 +59,14 @@ const Projects = () => {
                     Code Site
                   </a>
                 </button>
+                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
+                  <a
+                    href="https://github.com/Ahsan855/Toolkits-server"
+                    target="_blank"
+                  >
+                    Server code
+                  </a>
+                </button>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
@@ -92,6 +100,14 @@ const Projects = () => {
                     target="_blank"
                   >
                     Code Site
+                  </a>
+                </button>
+                <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
+                  <a
+                    href="https://github.com/Ahsan855/Book-ware-House-server"
+                    target="_blank"
+                  >
+                    Server Code
                   </a>
                 </button>
               </div>
