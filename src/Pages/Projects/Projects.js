@@ -48,17 +48,14 @@ const Projects = () => {
                 </ul>
                 <div className="grid grid-cols-3">
                   <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                    <a
-                      href="https://toolkits-websites.web.app/"
-                      target="_blank"
-                    >
+                    <a href="https://toolkits-websites.web.app/" target="blank">
                       View
                     </a>
                   </button>
                   <button className="mx-1 btn-sm btn-primary rounded-full btn-outline-sm">
                     <a
                       href="https://github.com/Ahsan855/Toolkits-Client"
-                      target="_blank"
+                      target="blank"
                     >
                       Client
                     </a>
@@ -66,7 +63,7 @@ const Projects = () => {
                   <button className="btn-sm btn-primary rounded-full btn-outline-sm">
                     <a
                       href="https://github.com/Ahsan855/Toolkits-server"
-                      target="_blank"
+                      target="blank"
                     >
                       Server
                     </a>
@@ -96,22 +93,22 @@ const Projects = () => {
                 </ul>
                 <div className="grid grid-cols-3">
                   <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                    <a href="https://book-store-e6ec1.web.app/" target="_blank">
+                    <a href="https://book-store-e6ec1.web.app/" target="blank">
                       View
                     </a>
                   </button>
                   <button className="mx-1 btn-sm btn-primary rounded-full btn-outline-sm">
                     <a
                       href="https://github.com/Ahsan855/book-wareHouse"
-                      target="_blank"
+                      target="blank"
                     >
                       Client
                     </a>
                   </button>
-                  <button className="btn-sm btn-primary rounded-full btn-outline-sm">
+                  <button className=" btn-sm btn-primary rounded-full btn-outline-sm">
                     <a
                       href="https://github.com/Ahsan855/Book-ware-House-server"
-                      target="_blank"
+                      target="blank"
                     >
                       Server
                     </a>
@@ -140,14 +137,14 @@ const Projects = () => {
                   <li>* Create blog section this websites</li>
                 </ul>
                 <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a href="https://digital-geaget.netlify.app/" target="_blank">
+                  <a href="https://digital-geaget.netlify.app/" target="blank">
                     View Site
                   </a>
                 </button>
                 <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
                   <a
                     href="https://github.com/Ahsan855/Digital-Gaget"
-                    target="_blank"
+                    target="blank"
                   >
                     Code Site
                   </a>
@@ -175,14 +172,14 @@ const Projects = () => {
                   <li>* Create blog section this websites</li>
                 </ul>
                 <button className="btn-sm btn-primary rounded-full btn-outline-sm">
-                  <a href="https://constraction-app.web.app/" target="_blank">
+                  <a href="https://constraction-app.web.app/" target="blank">
                     View Site
                   </a>
                 </button>
                 <button className=" ml-3 btn-sm btn-primary rounded-full btn-outline-sm">
                   <a
                     href="https://github.com/Ahsan855/Constraction-projects"
-                    target="_blank"
+                    target="blank"
                   >
                     Code Site
                   </a>

@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../../image/undraw_react_re_g3ui (1).svg";
-import image2 from "../../image/undraw_tailwind_css_1egw (1).svg";
-import image3 from "../../image/undraw_laravel_and_vue_-59-tp (1).svg";
-import image4 from "../../image/undraw_javascript_frameworks_-8-qpc (1).svg";
+import image1 from "../../image/undraw_react_re_g3ui (2).svg";
+import image2 from "../../image/undraw_tailwind_css_1egw (2).svg";
+import image3 from "../../image/undraw_version_control_re_mg66.svg";
+import image4 from "../../image/undraw_javascript_frameworks_-8-qpc (2).svg";
 const Service = () => {
   return (
     <div>
@@ -21,7 +21,7 @@ const Service = () => {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <a className="mt-3 text-primary inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -46,7 +46,7 @@ const Service = () => {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <a className="mt-3 text-primary inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -77,7 +77,7 @@ const Service = () => {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <a className="mt-3 text-primary inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -103,7 +103,7 @@ const Service = () => {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <a className="mt-3 text-primary inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -122,7 +122,7 @@ const Service = () => {
               <img src={image4} alt="" />
             </div>
           </div>
-          <button className="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <button className="flex mx-auto btn btn-primary btn-outline">
             Button
           </button>
         </div>
