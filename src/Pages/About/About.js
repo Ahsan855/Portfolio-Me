@@ -4,7 +4,7 @@ import image2 from "../../image/Screenshot_2.png";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <h1 className="text-primary text-4xl font-bold">
         About <span className="border-b-4 border-primary text-accent">Me</span>
       </h1>
