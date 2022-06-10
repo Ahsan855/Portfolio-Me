@@ -41,13 +41,7 @@ const Navbar = () => {
                   <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                  <a
-                    href="https://form.jotform.com/221594069555464"
-                    target="blank"
-                    to="/contact"
-                  >
-                    Contact
-                  </a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -117,16 +111,30 @@ const Navbar = () => {
                   Service
                 </Link>
               </li>
+              <li className="mr-2">
+                <Link
+                  className="text-white"
+                  to="testimonial"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Testimonials
+                </Link>
+              </li>
 
               <li className="mr-2">
-                <a
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
                   className="text-white"
-                  href="https://form.jotform.com/221594069555464"
-                  target="blank"
-                  to="/contact"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
