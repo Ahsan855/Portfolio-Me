@@ -28,20 +28,90 @@ const Navbar = () => {
                 tabIndex="0"
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li>
-                  <Link to="/">Home</Link>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="/"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Home
+                  </Link>
                 </li>
-                <li>
-                  <Link to="/about">About</Link>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Projects
+                  </Link>
                 </li>
-                <li>
-                  <Link to="/service">Service</Link>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    About
+                  </Link>
                 </li>
-                <li>
-                  <Link to="/projects">Projects</Link>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Skills
+                  </Link>
                 </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="service"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Service
+                  </Link>
+                </li>
+                <li className="mr-2">
+                  <Link
+                    className="text-white"
+                    to="testimonial"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Testimonials
+                  </Link>
+                </li>
+
+                <li className="mr-2">
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className="text-white"
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
