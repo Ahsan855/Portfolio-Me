@@ -10,8 +10,11 @@ const Projects = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl font-bold text-2xl title-font mb-2 text-gray-900">
-                My <span className="border-b-4 border-primary">Projects</span>
+              <h1 className="sm:text-3xl font-bold text-4xl title-font mb-2 text-primary">
+                <span className=" text-accent border-b-4 border-primary">
+                  My
+                </span>{" "}
+                Projects
               </h1>
             </div>
             <p className="lg:w-1/3 w-full leading-relaxed text-gray-500">
@@ -86,10 +89,10 @@ const Projects = () => {
                   Book-House <span>(full-Stact)</span>
                 </h2>
                 <ul className="text-sm mb-3">
-                  <li>* Create a auto parts websites</li>
-                  <li>* Home page is responsived</li>
-                  <li>* Dashboard added items and delete items</li>
-                  <li>* Create blog section this websites</li>
+                  <li>* Create a BookWare websites</li>
+                  <li>* Full page is responsived</li>
+                  <li>* product added items and delete items</li>
+                  <li>* Review this websites</li>
                 </ul>
                 <div className="grid grid-cols-3">
                   <button className="btn-sm btn-primary rounded-full btn-outline-sm">
@@ -131,10 +134,10 @@ const Projects = () => {
                   Digital <span>(front-end)</span>
                 </h2>
                 <ul className="text-sm mb-3">
-                  <li>* Create a auto parts websites</li>
-                  <li>* Home page is responsived</li>
-                  <li>* Dashboard added items and delete items</li>
-                  <li>* Create blog section this websites</li>
+                  <li>* Digital Gaget websites</li>
+                  <li>* Review section is awesome</li>
+                  <li>* Design bessed and responsived and good</li>
+                  <li>* this websites 4 page</li>
                 </ul>
                 <button className="btn-sm btn-primary rounded-full btn-outline-sm">
                   <a href="https://digital-geaget.netlify.app/" target="blank">
@@ -166,9 +169,9 @@ const Projects = () => {
                   Constractions <span>(front-end)</span>
                 </h2>
                 <ul className="text-sm mb-3">
-                  <li>* Create a auto parts websites</li>
+                  <li>* This is Constraction websites</li>
                   <li>* Home page is responsived</li>
-                  <li>* Dashboard added items and delete items</li>
+                  <li>* This is added items and projects are good</li>
                   <li>* Create blog section this websites</li>
                 </ul>
                 <button className="btn-sm btn-primary rounded-full btn-outline-sm">

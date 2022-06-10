@@ -9,7 +9,10 @@ const Service = () => {
       <h1 className="text-primary text-4xl">Services</h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-right"
+            className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
               <img src={image1} alt="" />
             </div>
@@ -37,7 +40,10 @@ const Service = () => {
               </a>
             </div>
           </div>
-          <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-left"
+            className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
                 Tailwind Css
@@ -65,7 +71,10 @@ const Service = () => {
               <img src={image2} alt="" />
             </div>
           </div>
-          <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+          <div
+            data-aos="fade-right"
+            className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col"
+          >
             <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
               <img src={image3} alt="" />
             </div>
@@ -94,7 +103,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex mt-10 items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-left"
+            className="flex mt-10 items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
                 JavaScript
@@ -122,9 +134,6 @@ const Service = () => {
               <img src={image4} alt="" />
             </div>
           </div>
-          <button className="flex mx-auto btn btn-primary btn-outline">
-            Button
-          </button>
         </div>
       </section>
     </div>
