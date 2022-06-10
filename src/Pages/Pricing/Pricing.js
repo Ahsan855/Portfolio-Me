@@ -9,7 +9,7 @@ const Pricing = () => {
       <progress class="progress progress-primary w-56"></progress>
 
       <div className="grid md:grid-cols-2 grid-cols-1 px-20 mt-16">
-        <div>
+        <div data-aos="fade-right">
           <h1 className="text-primary text-left text-2xl font-semibold">
             Additionally, I look forward to finding a new challenge every day
           </h1>
@@ -22,7 +22,7 @@ const Pricing = () => {
             A professional course from Programming-hero
           </h3>
         </div>
-        <div className="text-left ml-28">
+        <div data-aos="fade-left" className="text-left ml-28">
           JavaScripts
           <progress
             class="progress progress-primary w-56 ml-4"

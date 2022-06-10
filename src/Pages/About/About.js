@@ -11,7 +11,10 @@ const About = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
-            <div className="rounded-lg h-64 overflow-hidden">
+            <div
+              data-aos="fade-down-right"
+              className="rounded-lg h-64 overflow-hidden"
+            >
               <img
                 alt="content"
                 className="object-cover object-center md:h-full md:w-full sm:w-1/2 sm:h-1/2"
@@ -19,7 +22,10 @@ const About = () => {
                 src={image2}
               />
             </div>
-            <div className="flex flex-col sm:flex-row mt-10">
+            <div
+              data-aos="fade-down-left"
+              className="flex flex-col sm:flex-row mt-10"
+            >
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-300 text-gray-400">
                   <img src={image1} alt="" />
