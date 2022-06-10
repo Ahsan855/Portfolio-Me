@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="xl:w-1/4 md:w-1/2 text-left p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
-                  className="h-40 rounded w-full object-cover object-center mb-6"
+                  className="h-40 rounded w-full object-cover object-top mb-6"
                   src={image1}
                   alt="content"
                 />
@@ -77,7 +77,7 @@ const Projects = () => {
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
-                  className="h-40 rounded w-full object-cover object-center mb-6"
+                  className="h-40 rounded w-full object-cover object-top mb-6"
                   src={image2}
                   alt="content"
                 />
@@ -122,7 +122,7 @@ const Projects = () => {
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
-                  className="h-40 rounded w-full object-cover object-center mb-6"
+                  className="h-40 rounded w-full object-cover object-top mb-6"
                   src={image3}
                   alt="content"
                 />
@@ -157,7 +157,7 @@ const Projects = () => {
             <div className="xl:w-1/4 md:w-1/2 p-4 text-left">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
-                  className="h-40 rounded w-full object-cover object-center mb-6"
+                  className="h-40 rounded w-full object-cover object-top mb-6"
                   src={image4}
                   alt="content"
                 />

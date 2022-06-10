@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../image/undraw_uploading_re_okvh.svg";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const Banner = () => {
   return (
@@ -32,11 +33,12 @@ const Banner = () => {
             </p>
             <a
               href="https://drive.google.com/file/d/1IHFeHiN5X_PkAq_PFbF5fVekKTb-MFqm/view?usp=sharing"
-              className="btn btn-primary btn-outline cursor-pointer"
+              className="btn btn-primary btn-outline cursor-pointer mt-4"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Download Resume
+              Download Resume{" "}
+              <AiOutlineCloudDownload className="ml-3 text-3xl" />
             </a>
           </div>
         </div>
