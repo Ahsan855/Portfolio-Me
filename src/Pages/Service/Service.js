@@ -6,7 +6,7 @@ import image4 from "../../image/undraw_javascript_frameworks_-8-qpc (2).svg";
 const Service = () => {
   return (
     <div id="service">
-      <h1 className="text-primary text-4xl">Services</h1>
+      <h1 className="text-primary text-4xl font-bold">Services</h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div

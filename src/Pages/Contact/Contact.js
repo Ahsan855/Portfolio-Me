@@ -71,7 +71,7 @@ const Contact = () => {
             </div>
           </div>
           <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h2 class="text-primary text-2xl font-bold title-font mb-5">
+            <h2 class="text-primary text-4xl font-bold title-font mb-5">
               Contact{" "}
               <span className="text-accent border-b-2 border-primary">Me</span>
             </h2>
