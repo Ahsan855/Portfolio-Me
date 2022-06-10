@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../image/undraw_uploading_re_okvh.svg";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
@@ -23,9 +24,26 @@ const Banner = () => {
               Hello, I'm <br />
               <span className="text-primary">Md. Ahsan Habib</span>
             </h1>
-            <h2 className="text-white sm:text-xl md:text-2xl">
-              Junior Front End Developer
-            </h2>
+            <p className="text-white sm:text-xl md:text-2xl">
+              I'm
+              <span style={{ color: "white", fontWeight: "bold" }}>
+                {/* Style will be inherited from the parent element */}
+                <Typewriter
+                  words={[
+                    " MERN Stack Web Developer",
+                    " Junior Front End Developer",
+                    " Junior Web Developer",
+                    " A Self Believer ❤",
+                  ]}
+                  loop={5}
+                  cursor
+                  cursorStyle="❤"
+                  typeSpeed={70}
+                  deleteSpeed={70}
+                  delaySpeed={1000}
+                />
+              </span>
+            </p>
             <p className="md:py-6 sm:py-2 md:w-10/12 text-accent sm:text-sm">
               I am a skilled professional front-end Developer. My primary focus
               is on keeping our clients happy. I have completed everything for
