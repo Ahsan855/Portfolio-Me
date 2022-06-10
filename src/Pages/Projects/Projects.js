@@ -27,7 +27,7 @@ const Projects = () => {
             className="flex flex-wrap -m-4"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="500"
+            data-aos-duration="1500"
           >
             <div className="xl:w-1/4 md:w-1/2 text-left p-4">
               <div className="bg-gray-100 p-6 rounded-lg">

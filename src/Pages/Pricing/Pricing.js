@@ -8,7 +8,7 @@ const Pricing = () => {
       </h1>
       <progress class="progress progress-primary w-56"></progress>
 
-      <div className="grid md:grid-cols-2 grid-cols-1 px-20 mt-16">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:px-20 mt-16">
         <div data-aos="fade-right">
           <h1 className="text-primary text-left text-2xl font-semibold">
             Additionally, I look forward to finding a new challenge every day
@@ -18,11 +18,11 @@ const Pricing = () => {
             of scripting languages like React, JavaScript, HTML, and CSS A
             responsive and eye-catching website using bootstrap, Tailwind-CSS.
           </p>
-          <h3 className="border-1 font-bold border-primary hover:bg-primary hover:text-white py-2 rounded-full mt-8 shadow-sm shadow-primary">
+          <button className="border-1 px-2 font-bold border-primary hover:bg-primary hover:text-white py-2 rounded-full mt-8 shadow-sm shadow-primary">
             A professional course from Programming-hero
-          </h3>
+          </button>
         </div>
-        <div data-aos="fade-left" className="text-left ml-28">
+        <div data-aos="fade-left" className="text-left md:ml-28 mt-10">
           JavaScripts
           <progress
             class="progress progress-primary w-56 ml-4"

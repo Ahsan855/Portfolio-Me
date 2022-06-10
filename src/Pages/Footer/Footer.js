@@ -14,7 +14,7 @@ const Footer = () => {
               <a
                 className="text-primary"
                 href="https://www.facebook.com/profile.php?id=100008800055640"
-                target="_blank"
+                target="blank"
               >
                 <svg
                   fill="currentColor"
@@ -42,7 +42,7 @@ const Footer = () => {
               <a
                 className="ml-3 text-primary"
                 href="https://www.instagram.com/mohammadahsanhabib08/"
-                target="_blank"
+                target="blank"
               >
                 <svg
                   fill="none"
@@ -59,7 +59,7 @@ const Footer = () => {
               </a>
               <a
                 className="ml-3 text-primary"
-                target="_blank"
+                target="blank"
                 href="https://www.linkedin.com/in/muhammad-ahsan-habib-rifat-a388ba229/"
               >
                 <svg

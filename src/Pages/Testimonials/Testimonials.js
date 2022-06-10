@@ -7,7 +7,7 @@ const Testimonials = () => {
         <h1 className="text-4xl text-primary pt-20 mt-5 font-bold">
           Testimonial
         </h1>
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto" data-aos="zoom-in">
           <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

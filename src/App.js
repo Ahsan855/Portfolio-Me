@@ -1,11 +1,6 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Navbar/Navbar";
-import Projects from "./Pages/Projects/Projects";
-import Service from "./Pages/Service/Service";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

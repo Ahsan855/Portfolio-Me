@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className=" fixed z-50 w-full">
+    <div className=" w-full">
       <div className="">
         <div className="navbar bg-black px-28">
           <div className="navbar-start">
