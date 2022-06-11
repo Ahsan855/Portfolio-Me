@@ -1,13 +1,17 @@
 import React from "react";
 import image from "../../image/undraw_uploading_re_okvh.svg";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import { Typewriter } from "react-simple-typewriter";
+import Typed from "react-typed";
 
 const Banner = () => {
+  // let typewriter = new Typewriter(app, {
+  //   loop: true,
+  //   delay: 75,
+  // });
   return (
     <div className="bg-black">
       <div className="hero min-h-screen w-3/4 mx-auto bg-black">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col lg:flex-row-reverse px-5">
           <img
             src={image}
             className="md:max-w-md sm:max-w-xs rounded-full shadow-2xl"
@@ -26,23 +30,16 @@ const Banner = () => {
             </h1>
             <p className="text-white sm:text-xl md:text-2xl">
               I'm
-              <span style={{ color: "white", fontWeight: "bold" }}>
-                {/* Style will be inherited from the parent element */}
-                <Typewriter
-                  words={[
-                    " MERN Stack Web Developer",
-                    " Junior Front End Developer",
-                    " Junior Web Developer",
-                    " A Self Believer ❤",
-                  ]}
-                  loop={5}
-                  cursor
-                  cursorStyle="❤"
-                  typeSpeed={70}
-                  deleteSpeed={70}
-                  delaySpeed={1000}
-                />
-              </span>
+              <Typed
+                strings={[
+                  " A Front End Developer",
+                  " A Full-Stact Developer",
+                  " A Junior Web Developer",
+                  " A Junior MERN Stact Developer",
+                ]}
+                typeSpeed={70}
+                loop
+              />
             </p>
             <p className="md:py-6 sm:py-2 md:w-10/12 text-accent sm:text-sm">
               I am a skilled professional front-end Developer. My primary focus

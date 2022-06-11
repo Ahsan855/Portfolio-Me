@@ -11,7 +11,7 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div className="App">
+    <div className="App px-2">
       <Navbar />
       <Home />
       {/* <Routes>

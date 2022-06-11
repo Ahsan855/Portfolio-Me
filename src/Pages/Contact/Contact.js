@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Result = () => {
@@ -8,6 +8,7 @@ const Result = () => {
 };
 
 const Contact = () => {
+  const form = useRef();
   const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,7 +17,7 @@ const Contact = () => {
       .sendForm(
         "service_0mnj1h4",
         "template_aff937n",
-        e.current,
+        form.current,
         "-6NCfkZzSqCmZNykw"
       )
       .then(
@@ -76,7 +77,7 @@ const Contact = () => {
               <span className="text-accent border-b-2 border-primary">Me</span>
             </h2>
 
-            <form onSubmit={sendEmail}>
+            <form onSubmit={sendEmail} ref={form}>
               <div class="relative mb-4 text-left">
                 <label for="name" class="leading-7 text-md text-accent">
                   fullName

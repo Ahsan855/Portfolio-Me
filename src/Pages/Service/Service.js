@@ -5,7 +5,7 @@ import image3 from "../../image/undraw_version_control_re_mg66.svg";
 import image4 from "../../image/undraw_javascript_frameworks_-8-qpc (2).svg";
 const Service = () => {
   return (
-    <div id="service">
+    <div id="service" className="overflow-x-hidden">
       <h1 className="text-primary text-4xl font-bold">Services</h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">

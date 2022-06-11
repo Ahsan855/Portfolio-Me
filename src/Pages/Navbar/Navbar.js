@@ -3,15 +3,19 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className=" w-full">
+    <div className=" w-full sticky top-0 z-50">
       <div className="">
-        <div className="navbar bg-black px-28">
+        <div className="navbar bg-black md:px-28 ">
           <div className="navbar-start">
+            <h1 className="text-accent font-extrabold text-2xl">
+              Ahsan <span className="text-primary">Habib</span>
+            </h1>
+
             <div className="dropdown">
               <label tabIndex="0" className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-5 w-5 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -108,9 +112,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <h1 className="text-accent font-extrabold text-2xl">
-              Ahsan <span className="text-primary">Habib</span>
-            </h1>
           </div>
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
