@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className=" w-full sticky top-0 z-50">
       <div className="">
-        <div className="navbar bg-black md:px-28 ">
+        <div className="navbar bg-black md:px-28">
           <div className="navbar-start">
             <h1 className="text-accent font-extrabold text-2xl">
               Ahsan <span className="text-primary">Habib</span>
@@ -34,10 +34,10 @@ const Navbar = () => {
               >
                 <li className="mr-2">
                   <Link
-                    to="/"
+                    to="home"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     Home
@@ -48,7 +48,7 @@ const Navbar = () => {
                     to="projects"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     Projects
@@ -59,7 +59,7 @@ const Navbar = () => {
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     About
@@ -70,7 +70,7 @@ const Navbar = () => {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     Skills
@@ -81,7 +81,7 @@ const Navbar = () => {
                     to="service"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     Service
@@ -89,13 +89,13 @@ const Navbar = () => {
                 </li>
                 <li className="mr-2">
                   <Link
-                    to="testimonial"
+                    to="blog"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
-                    Testimonials
+                    Blogs
                   </Link>
                 </li>
 
@@ -104,7 +104,7 @@ const Navbar = () => {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={50}
+                    offset={-64}
                     duration={500}
                   >
                     Contact
@@ -118,10 +118,10 @@ const Navbar = () => {
               <li className="mr-2">
                 <Link
                   className="text-white"
-                  to="/"
+                  to="home"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
                   Home
@@ -133,7 +133,7 @@ const Navbar = () => {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
                   Projects
@@ -145,7 +145,7 @@ const Navbar = () => {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
                   About
@@ -157,7 +157,7 @@ const Navbar = () => {
                   to="skills"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
                   Skills
@@ -169,7 +169,7 @@ const Navbar = () => {
                   to="service"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
                   Service
@@ -178,13 +178,13 @@ const Navbar = () => {
               <li className="mr-2">
                 <Link
                   className="text-white"
-                  to="testimonial"
+                  to="blog"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                 >
-                  Testimonials
+                  Blogs
                 </Link>
               </li>
 
@@ -193,7 +193,7 @@ const Navbar = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-64}
                   duration={500}
                   className="text-white"
                 >

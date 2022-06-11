@@ -8,19 +8,21 @@ import Service from "../Service/Service";
 import Testimonials from "../Testimonials/Testimonials";
 import { TbArrowBigUpLine } from "react-icons/tb";
 import { Link } from "react-scroll";
+import Blogs from "../Blogs/Blogs";
 
 const Home = () => {
   return (
-    <div id="/">
+    <div id="home">
       <Banner />
       <Projects />
       <About />
       <Pricing />
       <Service />
+      <Blogs />
       <Testimonials />
       <Contact />
       <Link
-        to="/"
+        to="home"
         spy={true}
         smooth={true}
         offset={50}

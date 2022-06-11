@@ -29,13 +29,13 @@ const Banner = () => {
               <span className="text-primary">Md. Ahsan Habib</span>
             </h1>
             <p className="text-white sm:text-xl md:text-2xl">
-              I'm
+              I'm A
               <Typed
                 strings={[
-                  " A Front End Developer",
-                  " A Full-Stact Developer",
-                  " A Junior Web Developer",
-                  " A Junior MERN Stact Developer",
+                  " Front End Developer",
+                  " Full-Stact Developer",
+                  " Junior Web Developer",
+                  " Junior MERN Stact Developer",
                 ]}
                 typeSpeed={70}
                 loop

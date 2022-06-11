@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import image1 from "../../image/image 1.png";
 import image2 from "../../image/Screenshot_2.png";
 
@@ -36,9 +37,12 @@ const About = () => {
                   </h2>
                   <div className="w-12 h-1 bg-primary rounded mt-2 mb-4"></div>
                   <p className="text-base">Junior front-end Developer</p>
-                  <button className="btn-primary btn-outline btn mt-4">
-                    Hire Me
-                  </button>
+                  <Link
+                    to="contact"
+                    className="btn-primary btn-outline btn mt-4"
+                  >
+                    Contact Me
+                  </Link>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
@@ -50,20 +54,6 @@ const About = () => {
                   ReactJs, Github, Git, Node Js. Making the right choice is as
                   easy as selecting your Company as a Front-end Developer.
                 </p>
-                <a className="text-primary inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
