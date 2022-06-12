@@ -128,7 +128,7 @@ const Projects = () => {
                 />
                 <h3 className="tracking-wides text-sm font-medium title-font">
                   <span className="text-primary">Used:</span>
-                  firebase,react,firebase hooks,tailwind
+                  firebase,react,firebase hooks,tailwind,daisyui,bootstrap
                 </h3>
                 <h2 className="text-lg text-primary font-medium title-font mb-4">
                   Digital <span>(front-end)</span>
@@ -163,7 +163,7 @@ const Projects = () => {
                 />
                 <h3 className="tracking-wides text-sm font-medium title-font">
                   <span className="text-primary">Used:</span>
-                  firebase,react,firebase hooks,tailwind
+                  firebase,react,firebase hooks,tailwind,daisyui,bootstrap
                 </h3>
                 <h2 className="text-lg text-primary font-medium title-font mb-4">
                   Constractions <span>(front-end)</span>
