@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className="bg-black">
       <div className="hero min-h-screen w-3/4 mx-auto bg-black">
-        <div className="hero-content flex-col lg:flex-row-reverse px-5">
+        <div className="hero-content flex-col lg:flex-row-reverse sm:px-5">
           <img
             src={image}
             className="md:max-w-md sm:max-w-xs rounded-full shadow-2xl"
@@ -32,10 +32,10 @@ const Banner = () => {
               I'm A
               <Typed
                 strings={[
-                  " Front End Developer",
-                  " Full-Stact Developer",
-                  " Junior Web Developer",
-                  " Junior MERN Stact Developer",
+                  "  Front End Developer",
+                  "  Full-Stact Developer",
+                  "  Junior Web Developer",
+                  "  Junior MERN Stact Developer",
                 ]}
                 typeSpeed={70}
                 loop
